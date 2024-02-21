@@ -3,7 +3,7 @@
     {
        public function index()
         {
-            $this->views->getView($this, "index");
+            $this->views->getView($this,"index");
         }
     }
 ?>
