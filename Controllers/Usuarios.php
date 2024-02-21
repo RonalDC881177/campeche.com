@@ -1,5 +1,6 @@
 <?php
 class Usuarios extends Controller{
+    public $model;
     public function index(){
         print_r($this->model->getUsuario());
     }
